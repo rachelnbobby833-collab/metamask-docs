@@ -1,4 +1,29 @@
-name: NodeJS with Webpack
+[
+  {
+    "id": "sources/lib/MyLib.sol:MyLib",
+    "type": "replace",
+    "offset": 582,
+    "reason": "library"
+  },
+  {
+    "id": "0",
+    "type": "replace",
+    "offset": 1269,
+    "reason": "cborAuxdata"
+  },
+  {
+    "type": "delete",
+    "offset": 1295,
+    "length": 47,
+    "reason": "cborAuxdata"
+  },
+  {
+    "type": "insert",
+    "offset": 1322,
+    "reason": "constructorArguments"
+  }
+]
+: NodeJS with Webpack
 
 on:
   push:
